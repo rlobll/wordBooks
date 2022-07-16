@@ -28,7 +28,6 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          {/* <Route path="/" element={<Header />}></Route> */}
           <Route path="/" element={<DayList />}></Route>
           <Route path="/day/:day" element={<Day />}></Route>
           <Route path="/create_word" element={<CreateWord />}></Route>
